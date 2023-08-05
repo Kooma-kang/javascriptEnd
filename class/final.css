@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html {
+    padding: 100px;
+} 
+
+.body {
+    width: 540px;
+    height: 960px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.background {
+    width: 540px;
+    height: 960px;
+    border: 1px solid #0068FF;
+    border-radius: 20px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px 82px 52px 78px;
+}
+
+.header {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    color: #0068FF;
+    padding-bottom: 20px;
+
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px ;
+}
+
+.body__login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.login__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.id {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #D2D2d2;
+    border-radius: 7px;
+}
+
+.name {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #D2D2d2;
+    border-radius: 7px;
+}
+
+.pw1 {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #D2D2d2;
+    border-radius: 7px;
+}
+.pw2 {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #D2D2d2;
+    border-radius: 7px;
+}
+
+.body__phone {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.phone__container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.hyphen {
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 14px 14px 14px;
+    font-size: 40px;
+}
+.p1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #D2D2d2;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.p2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #D2D2d2;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.p3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #D2D2d2;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.body__check {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.targetNumber {
+    width: 70px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0068FF;
+    padding-right: 40px;
+}
+
+.checkSend {
+    width: 120px;
+    height: 40px;
+    /* background-color: white; */
+    font-size: 14px;
+    font-weight: 500;
+    /* color: #0068FF; */
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+}
+
+.body__finish {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.timer {
+    width: 70px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0068FF;
+    padding-right: 40px;    
+}
+
+.finish {
+    width: 120px;
+    height: 40px;
+    /* background-color: white; */
+    font-size: 14px;
+    font-weight: 500;
+    /* color: #0068FF; */
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+}
+
+.body__region {
+    width: 100%;
+    height: 100%;
+}
+
+.select {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #D2D2d2;
+    border-radius: 7px;
+}
+
+.body__radio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center
+
+}
+
+.divideLine {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #d2d2d2;
+}
+
+.submit__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.submit {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+    color: #0068FF;
+}
