@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.container div {
+    background-color: blue;
+    margin: 5px;
+    width: 200px;
+    color: white;
+
+}
+
+.box4 {
+    order: 3
+}
+/* order의 기본값은 0  0인 박스 이후부터 order의 숫자가 적용 */
+.box5 {
+    order: 1;
+}

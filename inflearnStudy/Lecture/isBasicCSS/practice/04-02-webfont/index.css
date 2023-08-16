@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    font-weight: 700;
+    font-family: 'Edu SA Beginner', cursive;
+    @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Nanum+Brush+Script&family=Roboto:wght@500&display=swap');
+} 

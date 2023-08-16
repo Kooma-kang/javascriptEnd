@@ -1,0 +1,40 @@
+.container {
+    background-color: gray;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid blue;
+    box-sizing: content-box;
+    padding: 50px;
+}
+
+/* 기본이 컨텐트 박스임을 기억해!///
+
+기본 설정 상 box-sizing을 border-box로 전체 바꾸고 작업을 해야 수월함 */
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid red;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid green;
+    padding: 50px;
+}
+
+.text {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+
+}

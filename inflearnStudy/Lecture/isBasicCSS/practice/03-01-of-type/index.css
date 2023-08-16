@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.container *:first-child {
+    background-color: red;
+}/* 첫번째에 적용할 p태그가 없으면 적용되지 않음
+  *을 써서 전체중에 첫번째를 고를 건지 선택사항*/
+
+.container p:first-of-type {
+    background-color: blue;
+}
+
+.container p:last-of-type {
+    background-color: green;
+}
+
+.container p:nth-of-type(2) {
+    background-color: orange;
+}
+
+.container span:first-of-type {
+    font-weight: 700;
+} {

@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+/* 이 위는 거의 필수적으로 해야 정렬이 되는듯 */
+
+.wrapper {
+    width: 620px;
+    background-color: aqua;
+    padding: 40px 30px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.wrapper__head { 
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed gray;
+}   
+
+.wrapper__head__title {
+    font-size: 32px;
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+    border: 3px solid lightblue;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.wrapper__head__subtitle {
+    font-size: 18px;
+    padding: 10px 0;
+
+}
+
+#mood {
+    font-size: 22px;
+    color: blue;
+    font-weight: 700;
+    padding: 10px 0px;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: block;
+
+}
+
+.wrapper__body {
+    border: 1px solid #dddddd;
+    padding: 20px 30px;
+    background-color: aqua;
+}
+
+.diary-title {
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    padding: 7px;
+
+
+}
+
+.example {
+    height: 10px;
+    color: red;
+    font-weight: 600;
+    padding-top: 5px;
+    display: block;
+}
+
+.highlight {
+    font-size: 18px;
+    color: blue;
+    font-weight: 700;
+}
+
+.diarydate {
+    color: #919191;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.wrapper__body__content {
+
+    
+}
+
+p {
+    width: 100%;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.header-inner {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    padding-top: 17px;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    background-color: lightskyblue;
+    border-radius: 7px;
+    color: blue;
+    padding: 7px;
+    border: 2px solid blue;
+}
+
+.logo h1 a:hover {
+    background-color: blue;
+    color: lightskyblue;
+    border: 3px solid lightskyblue;
+
+
+}
+.menu {
+
+}
+
+.menu__ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+}
+
+.menu__ul li {
+    list-style: none;
+}
+
+.menu__ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    
+}
+
+.user {
+}

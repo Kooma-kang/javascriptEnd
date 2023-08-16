@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>basic</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="D-Day">Anniversary Maker</h1>
+      <div id="d-day-container">
+        <div class="d-day-child-container">
+          <span id="days">0</span>
+          <!--  div를 이용하면 한줄 내려간 자리에 일이 생기므로 한줄로 생길수 있게 span 태그 사용 -->
+          <span>일</span>
+        </div>
+        <div class="d-day-child-container">
+          <span id="hours">0</span>
+          <span>시간</span>
+        </div>
+        <div class="d-day-child-container">
+          <span id="mins">0</span>
+          <span>분</span>
+        </div>
+        <div class="d-day-child-container">
+          <span id="secs">0</span>
+          <span>초</span>
+        </div>
+      </div>
+      <div id="message"></div>
+      <div class="target" id="target-selector">
+        <input id="target-year-input" class="target-input" size="5" /> -
+        <input id="target-month-input" class="target-input" size="5" /> -
+        <input id="target-date-input" class="target-input" size="5" />
+      </div>
+      <button onclick="starter()" class="start-btn">우리 오늘 며칠이야?</button>
+      <button onclick="resetTimer()" class="start-btn">타이머 초기화</button>
+    </div>
+  </body>
+</html>

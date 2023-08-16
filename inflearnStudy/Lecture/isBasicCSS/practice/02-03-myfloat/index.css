@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+/* 이 위는 거의 필수적으로 해야 정렬이 되는듯 */
+
+.wrapper {
+    width: 620px;
+    background-color: aqua;
+    padding: 40px 30px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.wrapper__head { 
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed gray;
+}   
+
+.wrapper__head__title {
+    font-size: 32px;
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+    border: 3px solid lightblue;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.wrapper__head__subtitle {
+    font-size: 18px;
+    padding: 10px 0;
+
+}
+
+#mood {
+    font-size: 22px;
+    color: blue;
+    font-weight: 700;
+    padding: 10px 0px;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: block;
+
+}
+
+.wrapper__body {
+    border: 1px solid #dddddd;
+    padding: 20px 30px;
+    background-color: aqua;
+}
+
+.diary-title {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+
+}
+
+.example {
+    color: red;
+    font-weight: 600;
+}
+
+.highlight {
+    font-size: 18px;
+    color: blue;
+    font-weight: 700;
+}
+
+.diarydate {
+    color: #919191;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.header {
+    border-bottom: 1px solid gray;
+}
+
+.header-inner {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 80px;
+    padding-top: 17px;
+}
+
+.logo h1 a {
+    text-decoration: none;
+}
+
+.logo h1 a:hover {
+    background-color: lightskyblue;
+    color: blue;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.menu {
+    float: left;
+    width: calc(100% - 200px);
+    height: 80px;
+    text-align: center;
+}
+
+.menu__ul {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.menu__ul li {
+    float: left;
+    list-style: none;
+}
+
+.menu__ul li a {
+    display: block;
+    color: lightskyblue;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+.menu__ul li a:hover {
+    color: blue
+}
+.user {
+    float: left;
+    width: 100px;
+    height: 80px;
+    padding-top: 22px;
+}
+
+.clearfix {
+    clear: both;
+}
